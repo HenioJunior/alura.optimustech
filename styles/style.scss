@@ -1,0 +1,13 @@
+@import './abstract/variaveis';
+@import './components/navbar';
+@import './components/header';
+@import './components/banner';
+@import './components/vagas';
+@import './components/depoimentos';
+@import './components/footer';
+
+body {
+    font-family: var(--fonte-principal);
+    font-size: $tamanho-do-texto;
+    font-weight: 400;
+}
