@@ -1,0 +1,51 @@
+@import '../abstract/variaveis';
+
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    padding: 2em 0 0 4em;
+
+    .navbar__logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .navbar__logo--titulo {
+        color: $cinza;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 0.5em;
+    }
+
+    .menu-lista {
+        display: flex;
+
+        .menu-lista__item {
+            margin-right: 1.5em;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+
+    .botoes {
+        a {
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .botao__entrar {
+            color: $cinza-claro;
+            margin-right: 2em;
+        }
+
+        .botao__cadastrar {
+            background: $vermelho-escuro;
+            color: $branco;
+            padding: 0.8em;
+            border-radius: 8px;
+        }
+    }
+}
