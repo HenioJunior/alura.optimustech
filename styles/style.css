@@ -38,6 +38,54 @@
   border-radius: 8px;
 }
 
+#cabecalho {
+  text-align: center;
+  margin-top: 10vh;
+  padding: 2.5em 2;
+}
+#cabecalho h2 {
+  color: #8E2424;
+  font-weight: 600;
+}
+#cabecalho h3 {
+  font-size: 48px;
+  font-weight: 600;
+  padding: 0.7em 0;
+}
+#cabecalho p {
+  color: #667085;
+  font-size: 20px;
+  display: inline-block;
+  width: 35vw;
+}
+
+#banner {
+  padding: 5em 1em;
+}
+#banner .banner__lista {
+  display: flex;
+  justify-content: space-between;
+}
+#banner .banner__lista li {
+  margin-right: 3em;
+  padding-left: 4em;
+  width: 100%;
+}
+#banner .banner__lista li h3 {
+  font-size: 60px;
+  font-weight: 600;
+  color: #8E2424;
+}
+#banner .banner__lista li h4 {
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 1em 0 1em 0;
+}
+#banner .banner__lista li p {
+  color: #667085;
+}
+
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;

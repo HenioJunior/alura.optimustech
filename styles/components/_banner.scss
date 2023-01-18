@@ -1,0 +1,33 @@
+@import '../abstract/variaveis';
+
+#banner {
+    padding: 5em 1em;
+
+    .banner__lista {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            margin-right: 3em;
+            padding-left: 4em;
+            width: 100%;
+
+            h3 {
+                font-size: 60px;
+                font-weight: 600;
+                color: $vermelho-escuro;
+            }
+
+            h4 {
+                color: $cinza-escuro;
+                font-size: 18px;
+                font-weight: 500;
+                padding: 1em 0 1em 0;
+            }
+
+            p {
+                color: $cinza-claro;
+            }
+        }
+    }
+}
