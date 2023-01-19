@@ -1,16 +1,18 @@
 @import '../abstract/variaveis';
 
 #banner {
-    padding: 5em 1em;
-
+    width: 90vw;
+    height: 20vw;
+    margin: auto;
+    
     .banner__lista {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        column-gap: 2rem;
 
         li {
-            margin-right: 3em;
-            padding-left: 4em;
-            width: 100%;
+            padding: 2rem 2rem;
+            width: 70vw;
 
             h3 {
                 font-size: 60px;
@@ -22,7 +24,7 @@
                 color: $cinza-escuro;
                 font-size: 18px;
                 font-weight: 500;
-                padding: 1em 0 1em 0;
+                padding: 1em 0 0 0;
             }
 
             p {

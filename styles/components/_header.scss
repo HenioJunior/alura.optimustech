@@ -1,13 +1,17 @@
 @import '../abstract/variaveis';
 
 #cabecalho {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    margin-top: 10vh;
-    padding: 2.5em 2;
+    justify-content: center;
+    margin: auto;
+    width: 90vw;
+    height: 40vh;
 
-    h2 {
-        color: $vermelho-escuro;
-        font-weight: 600;
+    .cabecalho__container {
+        width: 50vw;
+        margin: auto;
     }
 
     h3 {
@@ -17,9 +21,9 @@
     }
 
     p {
+        display: inline-block;
+        justify-content: center;
         color: $cinza-claro;
         font-size: 20px;
-        display: inline-block;
-        width: 35vw;
     }
 }
