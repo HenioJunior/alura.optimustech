@@ -208,8 +208,65 @@
 }
 
 #rodape {
-  border: 1px solid red;
   height: 35vh;
+  width: 100vw;
+  background-color: #F9FAFB;
+}
+#rodape .rodape__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60vw;
+  margin: auto;
+  padding: 4rem 1rem 0 1rem;
+}
+#rodape .rodape__container h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #101828;
+  flex-wrap: nowrap;
+}
+#rodape .rodape__container h4 {
+  font-size: 20px;
+  color: #667085;
+  font-weight: 400;
+  margin: 1.5rem 0 1rem 0;
+}
+#rodape .rodape__container .submit__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 2rem 0;
+}
+#rodape .rodape__container .submit__container .campo__email {
+  border: 1px solid #D0D5DD;
+  border-radius: 8px;
+  width: 23.44vw;
+  height: 6.7vh;
+}
+#rodape .rodape__container .submit__container .campo__email::-moz-placeholder {
+  padding-left: 1rem;
+}
+#rodape .rodape__container .submit__container .campo__email:-ms-input-placeholder {
+  padding-left: 1rem;
+}
+#rodape .rodape__container .submit__container .campo__email::placeholder {
+  padding-left: 1rem;
+}
+#rodape .rodape__container .submit__container .botao__submit {
+  background: #8E2424;
+  border: 1px solid #8E2424;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding: 0.8em 1.25rem;
+  border-radius: 8px;
+  width: 7.55vw;
+  height: 6.7vh;
+}
+#rodape .rodape__container p {
+  color: #98A2B3;
+  font-weight: 400;
 }
 
 body {

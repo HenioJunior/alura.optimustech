@@ -1,6 +1,66 @@
 @import '../abstract/variaveis';
 
 #rodape {
-    border: 1px solid red;
     height: 35vh;
+    width: 100vw;
+    background-color: $cinza-50;
+
+    .rodape__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60vw;
+        margin: auto;
+        padding: 4rem 1rem 0 1rem;
+
+        h2 {
+            font-size: 36px;
+            font-weight: 600;
+            color: $cinza-escuro;
+            flex-wrap: nowrap;
+        }
+
+        h4 {
+            font-size: 20px;
+            color: $cinza-claro;
+            font-weight: 400;
+            margin: 1.5rem 0 1rem 0;
+        }
+
+        .submit__container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+            margin: 2rem 0;
+
+            .campo__email {
+                border: 1px solid #D0D5DD;
+                border-radius: 8px;
+                width: 23.44vw;
+                height: 6.7vh;
+
+                &::placeholder {
+                    padding-left: 1rem;
+                }
+            }
+
+            .botao__submit {
+                background: $vermelho-escuro;
+                border: 1px solid $vermelho-escuro;
+                color: $branco;
+                font-weight: 500;
+                padding: 0.8em 1.25rem;
+                border-radius: 8px;
+                width: 7.55vw;
+                height: 6.7vh;
+
+            }
+        }
+
+        p {
+            color: $cinza-400;
+            font-weight: 400;
+        }
+    }
 }
