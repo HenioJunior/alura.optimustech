@@ -46,7 +46,14 @@
 
         .botao__entrar {
             color: $cinza-claro;
+            background-color: $branco;
             margin-right: 2rem;
+            border: 1px solid $branco;
+            font-weight: 500;
+            padding: 0.8em 1.25rem;
+            border-radius: 8px;
+            width: 7.55vw;
+            height: 5vh;
         }
 
         .botao__cadastrar {

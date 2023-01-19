@@ -38,23 +38,11 @@
                 border: 1px solid #D0D5DD;
                 border-radius: 8px;
                 width: 23.44vw;
-                height: 6.7vh;
+                height: 5vh;
 
                 &::placeholder {
                     padding-left: 1rem;
                 }
-            }
-
-            .botao__submit {
-                background: $vermelho-escuro;
-                border: 1px solid $vermelho-escuro;
-                color: $branco;
-                font-weight: 500;
-                padding: 0.8em 1.25rem;
-                border-radius: 8px;
-                width: 7.55vw;
-                height: 6.7vh;
-
             }
         }
 

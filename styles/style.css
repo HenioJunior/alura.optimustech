@@ -37,7 +37,14 @@
 }
 #navbar .botoes .botao__entrar {
   color: #667085;
+  background-color: #FFFFFF;
   margin-right: 2rem;
+  border: 1px solid #FFFFFF;
+  font-weight: 500;
+  padding: 0.8em 1.25rem;
+  border-radius: 8px;
+  width: 7.55vw;
+  height: 5vh;
 }
 #navbar .botoes .botao__cadastrar {
   background: #8E2424;
@@ -152,7 +159,7 @@
   margin: 2rem 0 2rem 0;
 }
 #vagas .vagas-abertas .area .vaga {
-  width: 70vw;
+  width: 50vw;
   padding: 1.5rem;
   border: 1px solid #EAECF0;
   border-radius: 16px;
@@ -243,7 +250,7 @@
   border: 1px solid #D0D5DD;
   border-radius: 8px;
   width: 23.44vw;
-  height: 6.7vh;
+  height: 5vh;
 }
 #rodape .rodape__container .submit__container .campo__email::-moz-placeholder {
   padding-left: 1rem;
@@ -254,16 +261,6 @@
 #rodape .rodape__container .submit__container .campo__email::placeholder {
   padding-left: 1rem;
 }
-#rodape .rodape__container .submit__container .botao__submit {
-  background: #8E2424;
-  border: 1px solid #8E2424;
-  color: #FFFFFF;
-  font-weight: 500;
-  padding: 0.8em 1.25rem;
-  border-radius: 8px;
-  width: 7.55vw;
-  height: 6.7vh;
-}
 #rodape .rodape__container p {
   color: #98A2B3;
   font-weight: 400;
@@ -273,6 +270,18 @@ body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+body h2 {
   color: #8E2424;
   font-weight: 600;
+}
+body .botao__cadastrar {
+  background: #8E2424;
+  border: 1px solid #8E2424;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding: 0.8em 1.25rem;
+  border-radius: 8px;
+  width: 7.55vw;
+  height: 5vh;
 }/*# sourceMappingURL=style.css.map */
